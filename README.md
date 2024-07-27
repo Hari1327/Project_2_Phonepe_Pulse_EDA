@@ -61,7 +61,12 @@ To install this package:
 - Tranform.py: Conver the csv files into the dataframes 
 - database.py: Contains functions for interacting dataframes with the MySQL database. 
 - Main_page.py - contains the streamlit application settings. 
-- requirements.txt: List of Python dependencies.  
+- requirements.txt: List of Python dependencies.
+
+## Medium Article:
+https://medium.com/@nuhari75/phonepe-pulse-data-visualization-and-exploration-e8a8a0f06d88
+
+## Demo video: https://youtu.be/QMMGulWvc0U?si=xVNDhUIET_afg-IO
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
