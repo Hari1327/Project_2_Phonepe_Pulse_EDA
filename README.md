@@ -1,18 +1,19 @@
 # Project_2_Phonepe_Pulse_EDA
 
-##Phoenpe Pulse Data Geo Visualization Project
-Overview
+## Phoenpe Pulse Data Geo Visualization Project
+## Overview
 This project visualizes geographical data from Phoenpe Pulse using a Streamlit application. It provides an interactive map to analyze and understand spatial patterns and trends within the dataset. The data is managed using MySQL.
 
-##Features
-Interactive map visualization
-Multiple layers for different data types
-Customizable map styles
-Filtering and searching capabilities
-Tooltips and detailed information on hover
-Data management with MySQL
-Installation
-Clone the repository:
+## Features
+- Interactive map visualization
+- Multiple layers for different data types
+- Customizable map styles
+- Filtering and searching capabilities
+- Tooltips and detailed information on hover
+- Data management with MySQL
+
+## Installation
+1. Clone the repository:
 
 bash
 Copy code
