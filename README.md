@@ -1,12 +1,13 @@
 ### Phonepe Pulse Data Geo Visualization Project
+## Overview
 This project visualizes geographical data from Phoenpe Pulse. It provides an interactive map to analyze and understand spatial patterns and trends within the dataset.
 
 ### Features
--Interactive map visualization
--Multiple layers for different data types
--Customizable map styles
--Filtering and searching capabilities
--Tooltips and detailed information on hover
+- Interactive map visualization
+- Multiple layers for different data types
+- Customizable map styles
+- Filtering and searching capabilities
+- Tooltips and detailed information on hover
 ### Technologies Used
 
 - **Python**: The core programming language used for developing the data extraction and processing scripts.
