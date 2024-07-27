@@ -25,7 +25,7 @@ To install this package:
 ### Installation
 1. Clone the repository:
 ```
-    git clone https://github.com/yourusername/phoenpe-pulse-geo-visualization.git
+    git clone https://github.com/yourusername/phoenpe-pulse-geo-visualization.git](https://github.com/Hari1327/Project_2_Phonepe_Pulse_EDA.git
     cd phoenpe-pulse-geo-visualization
 ```
 2. Install the necessary dependencies:
