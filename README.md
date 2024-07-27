@@ -1,81 +1,68 @@
-# Project_2_Phonepe_Pulse_EDA
+### Phonepe Pulse Data Geo Visualization Project
+This project visualizes geographical data from Phoenpe Pulse. It provides an interactive map to analyze and understand spatial patterns and trends within the dataset.
 
-## Phoenpe Pulse Data Geo Visualization Project
-## Overview
-This project visualizes geographical data from Phoenpe Pulse using a Streamlit application. It provides an interactive map to analyze and understand spatial patterns and trends within the dataset. The data is managed using MySQL.
+### Features
+-Interactive map visualization
+-Multiple layers for different data types
+-Customizable map styles
+-Filtering and searching capabilities
+-Tooltips and detailed information on hover
+### Technologies Used
 
-## Features
-- Interactive map visualization
-- Multiple layers for different data types
-- Customizable map styles
-- Filtering and searching capabilities
-- Tooltips and detailed information on hover
-- Data management with MySQL
+- **Python**: The core programming language used for developing the data extraction and processing scripts.
+- **MySQL Database**: MySQL is a Relational Database Management System (RDBMS) whereas the structured Query Language (SQL) is the language used for handling the RDBMS using commands i.e Creating, Inserting, Updating and Deleting the data from the databases.
+- **Pandas**: For data manipulation and transformation.
+To install this package:
+                
+                pip install Pandas
+- **mysql-connetor**: A MySQL database connector for Python, which is officially supported by Oracle. It provides a pure Python interface to MySQL databases, allowing you to connect to MySQL servers, execute SQL queries, and retrieve results.
+To install this package:
 
-## Installation
+               pip install mysql-connector-python
+- **Streamlit** - Streamlit is an open-source Python library designed to create and share custom web applications for data science and machine learning projects with minimal effort. Its simplicity and focus on rapid prototyping make it a popular choice among data scientists and developers who need to quickly visualize and interact with data. Also you can download the data as csv file from the web application.
+To install this package:
+                pip install streamlit
+### Installation
 1. Clone the repository:
-
-
+```
     git clone https://github.com/yourusername/phoenpe-pulse-geo-visualization.git
     cd phoenpe-pulse-geo-visualization
-
+```
 2. Install the necessary dependencies:
-
-   pip install -r requirements.txt
-
-3. Set up the MySQL database:
-
-- Install MySQL on your system if it’s not already installed.
-- Create a new database for the project.
-- Run the provided SQL scripts in the sql directory to create the necessary tables and populate them with initial data.
-
-4. Configure the database connection:
-
-- Update the config.py file with your MySQL database credentials.
-
-5. Run the Streamlit application:
-
-   streamlit run app.py
-
-## Usage
+```
+    pip install -r requirements.txt
+```
+3. Run the application:
+```
+    streamlit run python app.py
+```
+### Prerequisites
+- Python 3.x installed on your system.
+- MySQL installed and set up.
+- Streamlit web application sign in 
+### Usage
 1. Load the dataset:
 
-- Ensure your dataset is in the correct format and imported into the MySQL database.
-- Modify the config.py file to point to your database if necessary.
+- Ensure your dataset is in the correct format and placed in the data directory.
+- Start the application:
+- Run python app.py to launch the application.
+- Open your web browser and navigate to http://localhost:5000 to view the map.
+2. Interact with the map:
 
-2. Start the application:
-- Run streamlit run app.py to launch the application.
-- Open your web browser and navigate to the URL provided by Streamlit to view the map.
-
-3. Interact with the map:
 - Use the controls to zoom in/out and move around the map.
-Select different layers to view various data points.
-Use the search and filter options to focus on specific areas or data points.
-Hover over data points to see detailed information.
-Data
-The dataset used for this project should include the following fields:
+- Select different layers to view various data points.
+- Use the search and filter options to focus on specific areas or data points.
+- Hover over data points to see detailed information.
 
-latitude: Latitude of the data point
-longitude: Longitude of the data point
-attribute1: Description of the first attribute
-attribute2: Description of the second attribute
-...
-Ensure your dataset is cleaned and formatted correctly before loading it into the database.
 
-Customization
-You can customize the map styles, data layers, and other settings by modifying the config.py file and the Streamlit scripts. Detailed comments and documentation within the codebase should help guide your customizations.
+### Project Structure
 
-Contributing
-Contributions are welcome! Please follow these steps to contribute:
+- Tranform.py: Conver the csv files into the dataframes 
+- database.py: Contains functions for interacting dataframes with the MySQL database. 
+- Main_page.py - contains the streamlit application settings. 
+- requirements.txt: List of Python dependencies.  
+## License
 
-Fork the repository
-Create a new branch (git checkout -b feature/your-feature)
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/your-feature)
-Open a Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Acknowledgments
-Thanks to the Phoenpe Pulse team for providing the data.
-Special thanks to all the contributors and the open-source community.
+License This project is licensed under the MIT License. See the LICENSE file for more details.
