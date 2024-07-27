@@ -15,40 +15,40 @@ This project visualizes geographical data from Phoenpe Pulse using a Streamlit a
 ## Installation
 1. Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/phoenpe-pulse-geo-visualization.git
-cd phoenpe-pulse-geo-visualization
-Install the necessary dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Set up the MySQL database:
+    git clone https://github.com/yourusername/phoenpe-pulse-geo-visualization.git
+    cd phoenpe-pulse-geo-visualization
 
-Install MySQL on your system if it’s not already installed.
-Create a new database for the project.
-Run the provided SQL scripts in the sql directory to create the necessary tables and populate them with initial data.
-Configure the database connection:
+2. Install the necessary dependencies:
 
-Update the config.py file with your MySQL database credentials.
-Run the Streamlit application:
+   pip install -r requirements.txt
 
-bash
-Copy code
-streamlit run app.py
-Usage
-Load the dataset:
+3. Set up the MySQL database:
 
-Ensure your dataset is in the correct format and imported into the MySQL database.
-Modify the config.py file to point to your database if necessary.
-Start the application:
+- Install MySQL on your system if it’s not already installed.
+- Create a new database for the project.
+- Run the provided SQL scripts in the sql directory to create the necessary tables and populate them with initial data.
 
-Run streamlit run app.py to launch the application.
-Open your web browser and navigate to the URL provided by Streamlit to view the map.
-Interact with the map:
+4. Configure the database connection:
 
-Use the controls to zoom in/out and move around the map.
+- Update the config.py file with your MySQL database credentials.
+
+5. Run the Streamlit application:
+
+   streamlit run app.py
+
+## Usage
+1. Load the dataset:
+
+- Ensure your dataset is in the correct format and imported into the MySQL database.
+- Modify the config.py file to point to your database if necessary.
+
+2. Start the application:
+- Run streamlit run app.py to launch the application.
+- Open your web browser and navigate to the URL provided by Streamlit to view the map.
+
+3. Interact with the map:
+- Use the controls to zoom in/out and move around the map.
 Select different layers to view various data points.
 Use the search and filter options to focus on specific areas or data points.
 Hover over data points to see detailed information.
