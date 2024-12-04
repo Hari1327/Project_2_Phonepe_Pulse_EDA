@@ -1,4 +1,7 @@
 ### Phonepe Pulse Data Geo Visualization Project
+
+## Demo video: https://youtu.be/QMMGulWvc0U?si=xVNDhUIET_afg-IO
+
 ## Overview
 This project visualizes geographical data from Phoenpe Pulse. It provides an interactive map to analyze and understand spatial patterns and trends within the dataset.
 
@@ -66,7 +69,6 @@ To install this package:
 ## Medium Article:
 https://medium.com/@nuhari75/phonepe-pulse-data-visualization-and-exploration-e8a8a0f06d88
 
-## Demo video: https://youtu.be/QMMGulWvc0U?si=xVNDhUIET_afg-IO
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
