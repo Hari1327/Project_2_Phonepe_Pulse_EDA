@@ -71,11 +71,10 @@ def get_column_names(cursor, table_name):
 # Connect to MySQL server and select the database
 try:
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Hariharan@27",  # Consider using environment variables for credentials
-        database="phonepe",
-        port=3306
+       host=st.secrets["mysql"]["host"],
+       user=st.secrets["mysql"]["user"],
+       password=st.secrets["mysql"]["password"],
+       database=st.secrets["mysql"]["database"]
     )
     cursor = mydb.cursor()
 except mysql.connector.Error as err:
