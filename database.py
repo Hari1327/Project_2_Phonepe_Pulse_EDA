@@ -6,9 +6,10 @@ def InsertToDatabase(agg_tran, agg_user, agg_insur, map_insur, map_tran, map_use
         
         # Connect to MySQL server
         mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="Hariharan@27"
+            host=st.secrets["mysql"]["host"],
+            user=st.secrets["mysql"]["user"],
+            password=st.secrets["mysql"]["password"],
+            database=st.secrets["mysql"]["database"]
         )
 
         if mydb.is_connected():
