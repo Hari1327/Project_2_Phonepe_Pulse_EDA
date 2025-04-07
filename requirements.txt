@@ -2,5 +2,4 @@ mysql-connector-python
 pandas
 numpy
 altair
-json
 plotly-express
